@@ -7,6 +7,7 @@ Install
 - composer install
 - cp .env.example .env
 - php artisan key:generate
+- kalau error run command php artisan config:cache
 - php artisan serve
 
 Model: **php artisan make:model ModelName (singular)**
