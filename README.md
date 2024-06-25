@@ -2,6 +2,12 @@
 - PHP min version 8.2
 - Composer min version 2.x
 - Tools xampp/laragon
+  
+Install
+- composer install
+- cp .env.example .env
+- php artisan key:generate
+- php artisan serve
 
 Model: **php artisan make:model ModelName (singular)**
 
